@@ -11,7 +11,7 @@ grid += [(s, g, 10,   n, .01, None) for g in ['complete', 'cycle']
                                     for n in range(2500, 10001, 500)]
 
 tic = timeit.default_timer()
-process(grid, 'analysis/rbo-fig-3.csv')
+process(grid, 'results/rbo-fig-3.csv')
 toc = timeit.default_timer()
 
 print("Time: " + str(round(toc - tic, 1)))

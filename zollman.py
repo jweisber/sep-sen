@@ -8,7 +8,7 @@ grid += [(s, 'cycle',    a, 1000, .001, None) for a in range(4, 11)]
 grid += [(s, 'wheel',    a, 1000, .001, None) for a in range(5, 11)]
 
 tic = timeit.default_timer()
-process(grid, 'analysis/zollman.csv')
+process(grid, 'results/zollman.csv')
 toc = timeit.default_timer()
 
 print("Time: " + str(round(toc - tic, 1)))
