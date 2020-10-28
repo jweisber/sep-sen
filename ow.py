@@ -1,4 +1,4 @@
-from bg.sim import process, record
+from bg.sim import process
 import timeit
 
 
